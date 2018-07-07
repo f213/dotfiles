@@ -18,4 +18,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - mkdir -p ~/bin
   - fish -c "fisher fnm"
