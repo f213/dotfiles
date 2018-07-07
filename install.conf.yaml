@@ -8,6 +8,7 @@
     ~/.config/fish: fish
     ~/.config/karabiner: karabiner
     ~/.vimrc: .vimrc
+    ~/.vim: vimrc
     ~/.screenrc: .screenrc
     ~/.gitconfig: .gitconfig
 
