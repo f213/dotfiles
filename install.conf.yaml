@@ -18,5 +18,6 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - mkdir -p ~/bin
+  - [./install-brew-stuff.sh, Installing homebew and essential utils]
   - fish -c "fisher"
   - fish -c "fisher fnm"

@@ -1,0 +1,1 @@
+/Users/fedor/.config/fisherman/get/completions/get.fish

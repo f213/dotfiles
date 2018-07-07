@@ -2,6 +2,7 @@ fisherman/await
 fisherman/docker-completion
 fisherman/fnm
 fisherman/fzf
+fisherman/get
 fisherman/get_file_age
 fisherman/getopts
 fisherman/git_util
