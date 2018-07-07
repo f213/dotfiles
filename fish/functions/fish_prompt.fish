@@ -1,0 +1,1 @@
+/Users/fedor/.config/fisherman/teapot/fish_prompt.fish

@@ -1,0 +1,21 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/fish: fish
+    ~/.config/fisherman: fisherman
+    ~/.config/karabiner: karabiner
+    ~/.vimrc: .vimrc
+    ~/.screenrc: .screenrc
+    ~/.gitconfig: .gitconfig
+
+    ~/.isort.cfg: .isort.cfg
+    ~/.editorconfig: .editorconfig
+    ~/.config/flake8: flake8
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - fish -c "fisher fnm"

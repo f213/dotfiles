@@ -1,0 +1,43 @@
+[user]
+	name = Fedor Borshev
+	email = f@f213.in
+[core]
+	autocrlf = input
+	editor = /usr/bin/vim
+[alias]
+    l   = log --oneline --graph --decorate
+    st  = status
+    br  = branch
+    c   = checkout
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[merge]
+    conflictstyle = diff3
+    ff = false
+[push]
+	default = simple
+    #recurseSubmodules = check
+[commit]
+	gpgsign = true
+[pager]
+    show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
+    diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
+[github]
+	user = f213
+	token = ***REMOVED***
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f

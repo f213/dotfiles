@@ -1,0 +1,1 @@
+/Users/fedor/.config/fisherman/pyenv/completions/pyenv.fish

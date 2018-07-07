@@ -1,0 +1,1 @@
+/Users/fedor/.config/fisherman/osx/functions/manp.fish

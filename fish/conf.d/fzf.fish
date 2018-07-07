@@ -1,0 +1,1 @@
+/Users/fedor/.config/fisherman/fzf/conf.d/fzf.fish
