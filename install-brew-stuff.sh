@@ -5,5 +5,6 @@ set -e
 
 [ -z $(which fish) ] && brew install fish
 [ -z $(which hub) ] && brew install hub
+[ -z $(which fzf) ] && brew install fzf
 
 exit 0

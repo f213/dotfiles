@@ -21,4 +21,4 @@
   - mkdir -p ~/bin
   - [./install-brew-stuff.sh, Installing homebew and essential utils]
   - fish -c "fisher"
-  - fish -c "fisher fnm teapot"
+  - fish -c "fisher fnm teapot gitignore docker-completion oh-my-fish/plugin-osx"
