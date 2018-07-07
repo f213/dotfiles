@@ -6,7 +6,6 @@
 
 - link:
     ~/.config/fish: fish
-    ~/.config/fisherman: fisherman
     ~/.config/karabiner: karabiner
     ~/.vimrc: .vimrc
     ~/.screenrc: .screenrc
@@ -19,4 +18,5 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - mkdir -p ~/bin
+  - fish -c "fisher"
   - fish -c "fisher fnm"
