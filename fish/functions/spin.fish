@@ -1,1 +1,0 @@
-/Users/fedor/.config/fisherman/spin/spin.fish

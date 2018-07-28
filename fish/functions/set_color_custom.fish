@@ -1,1 +1,0 @@
-/Users/fedor/.config/fisherman/teapot/set_color_custom.fish

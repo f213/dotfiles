@@ -4,14 +4,15 @@
 
 - clean: ['~']
 
+
 - link:
-    ~/.config/fish: fish
+    ~/.config/fish/config.fish: fish/config.fish
+    ~/.config/fish/f213: fish/f213
     ~/.config/karabiner: karabiner
     ~/.vimrc: .vimrc
     ~/.vim: vimrc
     ~/.screenrc: .screenrc
     ~/.gitconfig: .gitconfig
-
     ~/.isort.cfg: .isort.cfg
     ~/.editorconfig: .editorconfig
     ~/.config/flake8: flake8
@@ -20,5 +21,6 @@
   - [git submodule update --init --recursive, Installing submodules]
   - mkdir -p ~/bin
   - [./install-brew-stuff.sh, Installing homebew and essential utils]
-  - fish -c "fisher"
-  - fish -c "fisher fnm teapot gitignore docker-completion oh-my-fish/plugin-osx fzf"
+  - rm -Rf ~/.config/fisherman
+  - curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+  - cat fish.plugins |xargs echo fisher|fish

@@ -1,1 +1,0 @@
-/Users/fedor/.config/fisherman/menu/menu.fish
