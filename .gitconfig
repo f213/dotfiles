@@ -33,9 +33,6 @@
 [pager]
     show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
     diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
-[github]
-	user = f213
-	token = ***REMOVED***
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
