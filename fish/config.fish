@@ -6,7 +6,7 @@ set -x VIRTUAL_ENV_DISABLE_PROMPT off
 
 set PATH ~/bin /usr/local/bin/ $PATH
 
-export (cat ~/.fish.env|xargs -L 1)  # set private environment variables
+test -r ~/.fish.env; and export (cat ~/.fish.env|xargs -L 1)  # set private environment variables
 
 function fish_mode_prompt; end
 
