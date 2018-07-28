@@ -5,3 +5,7 @@ end
 function g --description 'alias g=git'
     git $argv;
 end
+
+function gpoat --description 'alias gpoat=git push origin --all'
+    git push origin --all;
+end
