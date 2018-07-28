@@ -4,6 +4,14 @@ set fish_greeting
 # like `set -o vi` in bash
 fish_vi_key_bindings
 
+# enable Ctrl-F in vi mode
+# https://github.com/fish-shell/fish-shell/issues/3541#issuecomment-260001906
+function fish_user_key_bindings
+    for mode in insert default visual
+        bind -M $mode \cf forward-char
+    end
+end
+
 # disable ugly vi mode prompt
 function fish_mode_prompt; end
 
