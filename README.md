@@ -35,6 +35,10 @@ After installation do not forget to run `vim -c "PlugInstall"`.
 
 ## Karabiner
 
-This repository ships my configuration for the [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements), which i am using to replace the F-keys, which were replaced by the shity touchbar on the new macbooks. At most it is the play/pause functionality, available through the `Option` mod key.
+This repository ships my configuration for the [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements), which i am using to replace the F-keys, which were replaced by the shity touchbar on the new macbooks. My modifications:
+
+ * Tilda (next to `1` key) is used as a hardware escape button.
+ * Caps Lock is used as Ctrl key, Caps lock functionality is disabled.
+ * Rewind, play\payse and forward functionality is available through `Option-8`, `Option-9`, `Option-0` respectively.
 
 My configuration plays well with [BetterTouchTool](https://folivora.ai). You can check out my full setup at [this blogpost](http://borshev.com/fuck-touchbar/) (in russian).
