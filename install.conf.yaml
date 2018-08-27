@@ -8,6 +8,7 @@
 - link:
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/fish/f213: fish/f213
+    ~/.config/omf: fish/omf
     ~/.config/karabiner: karabiner
     ~/.vimrc: .vimrc
     ~/.vim: vimrc
@@ -21,6 +22,10 @@
   - [git submodule update --init --recursive, Installing submodules]
   - mkdir -p ~/bin
   - [./install-brew-stuff.sh, Installing homebew and essential utils]
-  - rm -Rf ~/.config/fisherman
-  - curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-  - cat fish.plugins |xargs echo fisher|fish
+  - rm -Rf ~/.local/share/omf/
+  - curl -L https://get.oh-my.fish > /tmp/omf_install
+  - chmod +x /tmp/omf_install
+  - fish -c "/tmp/omf_install --noninteractive"
+  - rm /tmp/omf_install
+  - fish -c omf update
+
