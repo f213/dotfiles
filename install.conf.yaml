@@ -17,6 +17,7 @@
     ~/.isort.cfg: .isort.cfg
     ~/.editorconfig: .editorconfig
     ~/.config/flake8: flake8
+    ~/.cookiecutterrc: cookiecutterrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
