@@ -1,6 +1,7 @@
 [user]
 	name = Fedor Borshev
-	email = f@f213.in
+	email = fedor@borshev.com
+	signingkey = DCA49339183C0087EF4C0A9958B229483FA4533E
 [core]
 	autocrlf = input
 	editor = /usr/bin/vim
@@ -9,6 +10,7 @@
     st  = status
     br  = branch
     c   = checkout
+	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [color "branch"]
     current = yellow reverse
     local = yellow
@@ -26,10 +28,8 @@
     conflictstyle = diff3
     ff = false
 [push]
-	default = simple
+	default = current
     #recurseSubmodules = check
-[commit]
-	gpgsign = true
 [pager]
     show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
     diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
@@ -38,3 +38,7 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[gpg]
+	program = /usr/local/bin/gpg
+[commit]
+	gpgsign = true
