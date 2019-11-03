@@ -1,1 +1,1 @@
-source /Users/fedor/.vim/vimrc
+source ~/.vim/vimrc
