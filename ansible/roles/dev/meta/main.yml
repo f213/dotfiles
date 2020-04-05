@@ -1,7 +1,0 @@
----
-  dependencies:
-    - role: geerlingguy.mas
-      vars:
-        mas_installed_apps:
-          - id: 497799835
-            name: Xcode
