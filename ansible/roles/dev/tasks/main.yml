@@ -17,7 +17,6 @@
         - nmap
         - pwgen
         - telnet
-        - things.sh
         - ripgrep
         - ansible-lint
         - yamllint
