@@ -7,10 +7,19 @@
     homebrew:
       name:
         - git
+        - gnupg
         - hub
         - fzf
         - bat
         - exa
+        - mosh
+        - mtr
+        - nmap
+        - pwgen
+        - telnet
+        - things.sh
+        - ripgrep
+        - ansible-lint
         - yamllint
         - jsonlint
 
