@@ -1,7 +1,7 @@
 [user]
 	name = Fedor Borshev
 	email = fedor@borshev.com
-	signingkey = DCA49339183C0087EF4C0A9958B229483FA4533E
+	signingkey = C074AA4E9B6EF34E
 [core]
 	autocrlf = input
 	editor = /usr/bin/vim
