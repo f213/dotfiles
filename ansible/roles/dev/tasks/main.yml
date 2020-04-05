@@ -32,6 +32,10 @@
     homebrew_cask:
       name: docker
 
+  - name: Ensure fonts repo is tapped
+    homebrew_tap:
+      name: homebrew/cask-fonts
+
   - name: Ensure vscode is installed
     homebrew_cask:
       name:
