@@ -5,6 +5,9 @@
 - clean: ['~']
 
 
+- create:
+    - ~/.config
+
 - link:
     ~/.config/fish/config.fish: fish/config.fish
     ~/.config/fish/f213: fish/f213
