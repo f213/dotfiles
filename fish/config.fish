@@ -29,3 +29,4 @@ for f in (find ~/.config/fish/f213/ -type f  -name '*.fish')
     source $f
 end
 
+set -g fish_user_paths "/usr/local/opt/node@8/bin" $fish_user_paths
