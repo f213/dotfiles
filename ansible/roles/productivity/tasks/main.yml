@@ -2,6 +2,7 @@
   - name: Ensure my productivity tools are installed
     homebrew_cask:
       name:
+        - 1password
         - alfred
         - bettertouchtool
         - karabiner-elements
