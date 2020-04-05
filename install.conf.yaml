@@ -29,4 +29,5 @@
   - fish -c "/tmp/omf_install --noninteractive"
   - rm /tmp/omf_install
   - fish -c omf update
+  - [./run-ansible.sh, Pouring software]
 

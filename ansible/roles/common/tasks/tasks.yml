@@ -1,0 +1,5 @@
+---
+  - name: Install fish shell
+    homebrew:
+      name: fish
+      state: present

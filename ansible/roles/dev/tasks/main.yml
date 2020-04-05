@@ -1,0 +1,35 @@
+---
+  - name: Ensure iterm2 is installed
+    homebrew_cask:
+      name: iterm2
+
+  - name: Ensure console utils are installed
+    homebrew:
+      name:
+        - git
+        - hub
+        - fzf
+        - bat
+        - exa
+        - yamllint
+        - jsonlint
+
+  - name: Ensure python and node version managers are present
+    homebrew:
+      name:
+        - pyenv
+        - node
+
+  - name: Ensure docker is installed
+    homebrew_cask:
+      name: docker
+
+  - name: Ensure vscode is installed
+    homebrew_cask:
+      name:
+        - visual-studio-code
+        - font-source-code-pro
+
+  - name: Ensure ngrok is installed
+    homebrew_cask:
+      name: ngrok

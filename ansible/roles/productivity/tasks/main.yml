@@ -1,0 +1,30 @@
+---
+  - name: Ensure my productivity tools are installed
+    homebrew_cask:
+      name:
+        - alfred
+        - bettertouchtool
+        - karabiner-elements
+        - bartender
+        - chromium
+        - cleanmymac
+        - iina
+        - ilya-birman-typography-layout
+        - loom
+        - notion
+        - permute
+        - protonvpn
+        - rescuetime
+        - slack
+        - skype
+        - transmission
+        - zoomus
+        - yandex
+
+  - name: Ensure my streaming tools are installed
+    homebrew_cask:
+      name:
+        - obs
+        - loopback
+        - audio-hijack
+        - pretzel

@@ -1,0 +1,7 @@
+---
+  - name: My machine
+    hosts: all
+    roles:
+      - common
+      - dev
+      - productivity

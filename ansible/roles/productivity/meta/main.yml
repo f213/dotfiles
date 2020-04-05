@@ -1,0 +1,29 @@
+---
+  dependencies:
+    - role: geerlingguy.mas
+      vars:
+        mas_installed_apps:
+          - id: 907364780
+            name: Tomato One
+          - id: 1335413823
+            name: Ka-block!
+          - id: 1055511498
+            name: Day One
+          - id: 904280696
+            name: Things
+          - id: 1091189122
+            name: Bear
+          - id: 775737590
+            name: IA Writer
+          - id: 747648890
+            name: Telegram
+          - id: 409203825
+            name: Numbers
+          - id: 409201541
+            name: Pages
+          - id: 409183694
+            name: Keynote
+          - id: 1289583905
+            name: Pixelmator Pro
+          - id: 470158793
+            name: Keka
