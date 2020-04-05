@@ -29,3 +29,16 @@
         - loopback
         - audio-hijack
         - pretzel
+
+  - name: Recuce noise from the macos
+    osx_defaults:
+      key: "{{ item.key }}"
+      domain: "{{ item.domain }}"
+      value: "{{ item.value }}"
+    loop:
+      - domain: com.apple.systempreferences
+        key: AttentionPrefBundleIDs
+        value: 0
+      - domain: com.apple.dock
+        key: no-bouncing
+        value: TRUE
