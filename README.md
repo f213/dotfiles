@@ -8,13 +8,14 @@ This is a repo for my OS X dotfiles. Bootstrap is based on the awesome [dotbot](
 git clone https://github.com/f213/dotfiles .dotfiles
 cd .dotfiles
 ./install
+
+vim -c "PlugInstall"
+sudo bash -c 'echo /usr/local/bin/fish >> /etc/shells'
+chsh -s /usr/local/bin/fish
 ```
 
 Homebrew and fish shell are bootstrapped automatically in case you have them not installed. After installation you have to switch you shell, as described [here](https://github.com/ellerbrock/fish-shell-setup-osx#fish-shell).
 
-If you are going to use vim, do not forget to run `vim -c "PlugInstall"`.
-
-**Attention!** The install script has to remove your existing fisherman configuration.
 
 ## Contents
 
