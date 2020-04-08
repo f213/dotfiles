@@ -23,6 +23,7 @@
         - nmap
         - pinentry-mac
         - pwgen
+        - siege
         - telnet
         - ripgrep
         - yamllint
