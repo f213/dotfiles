@@ -7,6 +7,16 @@
     homebrew_tap:
       name: homebrew/cask-fonts
 
+  - name: Ensure graphical utils are installed
+    homebrew_cask:
+      name:
+        - docker
+        - font-source-code-pro
+        - keybase
+        - osxfuse
+        - ngrok
+        - visual-studio-code
+
   - name: Ensure console utils are installed
     homebrew:
       name:
@@ -24,18 +34,11 @@
         - pinentry-mac
         - pwgen
         - siege
+        - sshfs
         - telnet
         - ripgrep
         - yamllint
 
-  - name: Ensure graphical utils are installed
-    homebrew_cask:
-      name:
-        - docker
-        - font-source-code-pro
-        - keybase
-        - ngrok
-        - visual-studio-code
 
   - name: Ensure python and node version managers are installed
     homebrew:

@@ -1,7 +1,25 @@
 ---
   - name: My machine
     hosts: all
+    vars_files:
+      - ./vars/dev-linux.yml
     roles:
       - common
-      - dev
-      - productivity
+
+    tasks:
+      - name: "Install Mac software {{ item }}"
+        include_role:
+          name: "{{ item }}"
+        loop:
+          - productivity
+          - dev-mac
+        when: ansible_distribution == 'MacOSX'
+
+      - name: "Install linux software {{ item }}"
+        include_role:
+          name: "{{ item }}"
+        loop:
+          - dev-linux
+          - geerlingguy.postgresql
+          - geerlingguy.redis
+        when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'

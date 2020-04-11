@@ -1,0 +1,13 @@
+---
+  # https://galaxy.ansible.com/geerlingguy/postgresl
+  postgresql_users:
+    - name: f213
+
+  postgresql_locales:
+    - 'ru_RU.UTF-8'
+    - 'en_US.UTF-8'
+
+  # https://galaxy.ansible.com/geerlingguy/redis
+  redis_save: ""
+  redis_maxmemory: 64Mb
+  redis_maxmemory_policy: allkeys-lru

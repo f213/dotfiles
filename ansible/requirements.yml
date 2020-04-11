@@ -1,1 +1,3 @@
 - src: geerlingguy.mas
+- src: geerlingguy.postgresql
+- src: geerlingguy.redis

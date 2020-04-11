@@ -1,0 +1,32 @@
+---
+  - name: Add docker.com GPG key
+    apt_key:
+      url: https://download.docker.com/linux/ubuntu/gpg
+
+  - name: Add required repositoreis
+    apt_repository:
+      repo: "{{ item }}"
+    loop:
+      - deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+      - ppa:cpick/hub
+
+
+  - name: Install required packages
+    apt:
+      name:
+        - bat
+        - gnupg
+        - jsonlint
+        - exa
+        - ripgrep
+        - docker-ce
+
+  - name: Install pyenv
+    shell:
+      cmd: curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+      creates: ~/.pyenv
+
+  - name: Install n
+    shell:
+      cmd: curl -L https://git.io/n-install | bash
+      creates: /usr/local/bin/n
