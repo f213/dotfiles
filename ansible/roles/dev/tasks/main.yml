@@ -12,6 +12,7 @@
       name:
         - ansible-lint
         - bat
+        - bfg
         - exa
         - git
         - gnupg
