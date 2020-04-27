@@ -1,7 +1,6 @@
 [user]
 	name = Fedor Borshev
 	email = fedor@borshev.com
-	signingkey = C074AA4E9B6EF34E
 [core]
 	autocrlf = input
 	editor = /usr/bin/vim
@@ -38,7 +37,3 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-[gpg]
-	program = /usr/local/bin/gpg
-[commit]
-	gpgsign = true
