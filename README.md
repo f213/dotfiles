@@ -23,7 +23,6 @@ Homebrew and fish shell are bootstrapped automatically in case you have them not
 The shell is [Fish](https://fishshell.com/). Plugin management is powered by [fisherman](http://fisherman.github.io).
 
 The clear and minimal fish prompt is called [nai](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#nai):
-![teapot](https://user-images.githubusercontent.com/1592663/43358045-17fc70a6-9294-11e8-8fd9-0e0b7d920465.png)
 
 To use this colors you have to switch iTerm2 color to Dark Solarized (Prefereces -> Profiles -> Colors).
 
