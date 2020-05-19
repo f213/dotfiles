@@ -32,7 +32,7 @@
         - audio-hijack
         - pretzel
 
-  - name: Recuce noise from the macos
+  - name: Reduce noise from the macos
     osx_defaults:
       key: "{{ item.key }}"
       domain: "{{ item.domain }}"
