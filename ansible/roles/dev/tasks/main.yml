@@ -15,6 +15,7 @@
         - bfg
         - exa
         - circleci
+        - doctl
         - git
         - gnupg
         - jsonlint
