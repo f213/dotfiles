@@ -8,10 +8,12 @@
         - bluetoothconnector
         - karabiner-elements
         - bartender
+        - choosy
         - google-chrome
         - cleanmymac
         - iina
         - ilya-birman-typography-layout
+        - krisp
         - loom
         - notion
         - permute
@@ -31,7 +33,7 @@
         - audio-hijack
         - pretzel
 
-  - name: Recuce noise from the macos
+  - name: Reduce macos noise
     osx_defaults:
       key: "{{ item.key }}"
       domain: "{{ item.domain }}"
