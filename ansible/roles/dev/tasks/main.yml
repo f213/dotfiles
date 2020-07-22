@@ -26,6 +26,7 @@
         - nmap
         - pinentry-mac
         - pwgen
+        - sloccount
         - siege
         - telnet
         - ripgrep
