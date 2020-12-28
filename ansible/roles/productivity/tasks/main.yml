@@ -6,17 +6,20 @@
         - alfred
         - bettertouchtool
         - bluetoothconnector
-        - karabiner-elements
         - bartender
+        - choosy
         - google-chrome
+        - gifox
         - cleanmymac
         - iina
         - ilya-birman-typography-layout
+        - karabiner-elements
+        - krisp
         - loom
         - notion
         - permute
         - protonvpn
-        - rescuetime
+        - soulver
         - slack
         - sketch
         - skype
@@ -27,12 +30,13 @@
   - name: Ensure my streaming tools are installed
     homebrew_cask:
       name:
-        - obs
-        - loopback
         - audio-hijack
+        - loopback
+        - obs
+        - piezo
         - pretzel
 
-  - name: Reduce noise from the macos
+  - name: Reduce macos noise
     osx_defaults:
       key: "{{ item.key }}"
       domain: "{{ item.domain }}"

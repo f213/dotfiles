@@ -15,6 +15,7 @@
         - bfg
         - exa
         - circleci
+        - doctl
         - git
         - gnupg
         - jsonlint
@@ -25,6 +26,7 @@
         - nmap
         - pinentry-mac
         - pwgen
+        - sloccount
         - siege
         - telnet
         - ripgrep
@@ -37,6 +39,7 @@
         - font-source-code-pro
         - keybase
         - ngrok
+        - postico
         - visual-studio-code
 
   - name: Ensure python and node version managers are installed
