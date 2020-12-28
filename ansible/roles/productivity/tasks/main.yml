@@ -31,10 +31,12 @@
     homebrew_cask:
       name:
         - audio-hijack
+        - fission
         - loopback
         - obs
         - piezo
         - pretzel
+        - soundsource
 
   - name: Reduce macos noise
     osx_defaults:
