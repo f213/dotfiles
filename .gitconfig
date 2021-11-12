@@ -1,6 +1,7 @@
 [user]
 	name = Fedor Borshev
 	email = fedor@borshev.com
+	signingkey = 1910AEE7A90E8FBA265DA1F2C074AA4E9B6EF34E
 [core]
 	autocrlf = input
 	editor = /usr/bin/vim
@@ -39,3 +40,9 @@
 	smudge = git-lfs smudge -- %f
 [credential]
 	helper = osxkeychain
+[init]
+	defaultBranch = master
+[gpg]
+	program = /usr/local/bin//gpg
+[commit]
+	gpgsign = true
