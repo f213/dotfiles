@@ -27,14 +27,10 @@
   - [git submodule update --init --recursive, Installing submodules]
   - mkdir -p ~/bin
   - [./install-brew-stuff.sh, Installing homebew and essential utils]
-  - rm -Rf ~/.local/share/omf/
-  - curl -L https://get.oh-my.fish > /tmp/omf_install
-  - chmod +x /tmp/omf_install
-  - fish -c "/tmp/omf_install --noninteractive"
-  - rm /tmp/omf_install
-  - fish -c omf update
+  - curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > /tmp/omf-install && chmod +x /tmp/omf-install
+  - fish /tmp/omf-install --noninteractive && rm /tmp/omf-install
   - command: ./run-ansible.sh
     stdin: true
     stdout: true
-    description: Poring software
+    description: Pouring software
 
