@@ -13,6 +13,7 @@
     ~/.config/fish/f213: fish/f213
     ~/.config/omf: fish/omf
     ~/.config/karabiner: karabiner
+    ~/.config/gh: gh
     ~/.vimrc: .vimrc
     ~/.vim: vimrc
     ~/.screenrc: .screenrc
