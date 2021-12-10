@@ -20,7 +20,7 @@ set -x VIRTUAL_ENV_DISABLE_PROMPT off
 set PATH ~/bin /usr/local/bin/ $PATH
 
 
-# set private environment variables stored outsited source control
+# set private environment variables stored outside source control
 test -r ~/.fish.env; and export (cat ~/.fish.env|xargs -L 1)
 
 

@@ -10,6 +10,7 @@
   - name: Ensure console utils are installed
     homebrew:
       name:
+        - act
         - ansible-lint
         - bat
         - bfg
@@ -20,23 +21,26 @@
         - gnupg
         - jsonlint
         - hub
+        - fd
         - fzf
         - mosh
         - mtr
         - nmap
+        - nvim
         - pinentry-mac
         - pwgen
         - sloccount
         - siege
         - telnet
         - ripgrep
+        - sk
         - yamllint
 
   - name: Ensure graphical utils are installed
     homebrew_cask:
       name:
         - docker
-        - font-source-code-pro
+        - font-sauce-code-pro-nerd-font
         - keybase
         - ngrok
         - postico
