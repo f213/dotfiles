@@ -14,8 +14,7 @@
     ~/.config/omf: fish/omf
     ~/.config/karabiner: karabiner
     ~/.config/gh: gh
-    ~/.vimrc: .vimrc
-    ~/.vim: vimrc
+    ~/.config/nvim: nvim
     ~/.screenrc: .screenrc
     ~/.gitconfig: .gitconfig
     ~/.isort.cfg: .isort.cfg
