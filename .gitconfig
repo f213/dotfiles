@@ -4,7 +4,6 @@
 	signingkey = 1910AEE7A90E8FBA265DA1F2C074AA4E9B6EF34E
 [core]
 	autocrlf = input
-	editor = /usr/bin/vim
 [alias]
     l   = log --oneline --graph --decorate
     st  = status

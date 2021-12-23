@@ -3,5 +3,3 @@ function vim --description 'alias vim=nvim'
 end
 
 set -gx EDITOR nvim
-set -e EDITOR
-
