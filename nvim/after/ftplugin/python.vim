@@ -8,4 +8,6 @@ endfunction
 autocmd BufWritePre *.py call TrimEndLines()
 
 nmap <leader>ff :silent StripWhitespace <CR> :silent call CocAction('runCommand', 'editor.action.organizeImport')<CR>
-"autocmd BufWritePre *.py :silent call CocAction('runCommand', 'editor.action.organizeImport')
+
+iabbrev ptf @pytest.fixture<enter>def
+iabbrev ptm import pytest<enter><enter>pytestmark = [pytest.mark.django_db]<enter>
