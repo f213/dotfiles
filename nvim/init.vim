@@ -28,7 +28,7 @@ set updatetime=300
 set nobackup
 set inccommand=nosplit
 
-nmap <C-t> :tab split <CR>
+nmap <C-t> :tab new <CR>
 nmap <Leader>gd <Plug>(coc-definition)
 
 
