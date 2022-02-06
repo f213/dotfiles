@@ -7,7 +7,6 @@ Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'tpope/vim-eunuch'
 
 Plug 'joshdick/onedark.vim'
-Plug 'altercation/vim-colors-solarized'
 
 Plug 'pearofducks/ansible-vim', { 'do': './UltiSnips/generate.sh' }
 
@@ -27,6 +26,7 @@ set signcolumn=number
 set updatetime=300
 set nobackup
 set inccommand=nosplit
+set iskeyword-=_
 
 nmap <C-t> :tab new <CR>
 nmap <Leader>gd <Plug>(coc-definition)
