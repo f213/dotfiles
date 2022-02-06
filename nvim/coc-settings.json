@@ -6,6 +6,8 @@
     "pyright.organizeimports.provider": "isort",
     "python.analysis.typeCheckingMode": "off",
     "prettier.disableLanguages": [],
+    "vetur.completion.autoImport": false,
+    "vetur.format.enable": false,
     "signature.enable": false,
     "diagnostic.hintSign": "",
     "diagnostic.messageTarget": "echo"
