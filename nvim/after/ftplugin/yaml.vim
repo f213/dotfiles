@@ -1,2 +1,1 @@
-autocmd BufWrite *.yml :CocCommand prettier.formatFile
-autocmd BufWrite *.yaml :CocCommand prettier.formatFile
+nmap <leader>ff :CocCommand prettier.formatFile<enter>
