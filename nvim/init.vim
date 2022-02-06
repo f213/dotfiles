@@ -25,9 +25,6 @@ nnoremap <c-P> <cmd>lua require('fzf-lua').files()<CR>
 set completeopt=menu,noinsert
 set signcolumn=number
 set updatetime=300
-inoremap <silent><expr> <TAB> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
 set nobackup
 set inccommand=nosplit
 
