@@ -37,6 +37,5 @@ colorscheme onedark
 set cursorline
 set ruler
 set number
-let g:airline_theme='minimalist'
 
 filetype plugin indent on
