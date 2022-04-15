@@ -18,6 +18,7 @@
         - doctl
         - dog
         - git
+        - git-delta
         - gnupg
         - jsonlint
         - hub

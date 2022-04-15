@@ -4,44 +4,36 @@
 	signingkey = 1910AEE7A90E8FBA265DA1F2C074AA4E9B6EF34E
 [core]
 	autocrlf = input
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true  # use n and N to move between diff sections
 [alias]
     l   = log --oneline --graph --decorate
     st  = status
     br  = branch
     c   = checkout
-	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [color "branch"]
     current = yellow reverse
     local = yellow
     remote = green
-[color "diff"]
-    meta = yellow bold
-    frag = magenta bold
-    old = red bold
-    new = green bold
 [color "status"]
     added = yellow
     changed = green
     untracked = cyan
+[diff]
+    colorMoved = default
 [merge]
     conflictstyle = diff3
     ff = false
 [push]
 	default = current
-    #recurseSubmodules = check
-[pager]
-    show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
-    diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 [credential]
 	helper = osxkeychain
 [init]
 	defaultBranch = master
 [gpg]
-	program = /usr/local/bin//gpg
+	program = /usr/local/bin/gpg
 [commit]
 	gpgsign = true
