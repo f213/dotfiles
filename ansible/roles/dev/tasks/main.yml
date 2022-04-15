@@ -15,8 +15,8 @@
         - bat
         - bfg
         - exa
-        - circleci
         - doctl
+        - dog
         - git
         - gnupg
         - jsonlint
