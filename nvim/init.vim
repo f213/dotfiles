@@ -26,7 +26,6 @@ set signcolumn=number
 set updatetime=300
 set nobackup
 set inccommand=nosplit
-set iskeyword-=_
 
 nmap <C-t> :tab new <CR>
 nmap <Leader>gd <Plug>(coc-definition)
@@ -37,5 +36,6 @@ colorscheme onedark
 set cursorline
 set ruler
 set number
+set nohlsearch
 
 filetype plugin indent on
