@@ -23,6 +23,7 @@
         - hub
         - fd
         - fzf
+        - lima
         - mosh
         - mtr
         - nmap
@@ -39,7 +40,6 @@
   - name: Ensure graphical utils are installed
     homebrew_cask:
       name:
-        - docker
         - font-sauce-code-pro-nerd-font
         - keybase
         - ngrok
