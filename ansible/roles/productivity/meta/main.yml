@@ -1,6 +1,6 @@
 ---
   dependencies:
-    - role: geerlingguy.mas
+    - role: geerlingguy.mac.mas
       vars:
         mas_installed_apps:
           - id: 907364780
