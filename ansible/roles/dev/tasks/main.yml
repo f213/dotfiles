@@ -26,6 +26,7 @@
         - lima
         - mosh
         - mtr
+        - mysql-client
         - nmap
         - nvim
         - pinentry-mac
