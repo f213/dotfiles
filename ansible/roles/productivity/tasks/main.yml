@@ -4,39 +4,50 @@
       name:
         - 1password
         - alfred
+        - app-cleaner
+        - bartender
+        - backblaze
         - bettertouchtool
         - bluetoothconnector
-        - bartender
-        - choosy
+        - cleanshot
         - google-chrome
         - gifox
-        - cleanmymac
-        - iina
         - ilya-birman-typography-layout
         - karabiner-elements
-        - krisp
-        - loom
         - notion
+        - monolingual
+        - omnidisksweeper
         - permute
         - protonvpn
-        - soulver
+        - protonmail-bridge
         - slack
         - sketch
         - skype
         - transmission
-        - zoomus
+        - zoom
+        - vlc
         - yandex
 
   - name: Ensure my streaming tools are installed
     homebrew_cask:
       name:
         - audio-hijack
+        - elgato-stream-deck
         - fission
+        - focusrite-control
         - loopback
         - obs
         - piezo
         - pretzel
         - soundsource
+
+  - name: Ensure my accounting tools are installed
+    homebrew_cask:
+      name:
+        - ledger-live
+        - soulver
+        - trader-workstation
+
 
   - name: Reduce macos noise
     osx_defaults:
