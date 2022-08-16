@@ -10,16 +10,18 @@
   - name: Ensure console utils are installed
     homebrew:
       name:
-        - act
         - ansible-lint
         - bat
         - bfg
         - exa
-        - doctl
+        - dive
         - dog
         - git
         - gh
         - gnupg
+        - hadolint
+        - heroku
+        - httpie
         - jsonlint
         - hub
         - fd
@@ -29,14 +31,14 @@
         - mtr
         - mysql-client
         - nmap
-        - nvim
+        - neovim
         - pinentry-mac
         - pwgen
+        - pv
+        - ripgrep
         - sloccount
         - siege
         - telnet
-        - ripgrep
-        - sk
         - yamllint
 
   - name: Ensure graphical utils are installed
