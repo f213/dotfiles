@@ -30,8 +30,8 @@
 	default = current
     #recurseSubmodules = check
 [pager]
-    show = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
-    diff = /usr/local/share/git-core/contrib/diff-highlight/diff-highlight |less
+    show = /opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight |less
+    diff = /opt/homebrew/share/git-core/contrib/diff-highlight/diff-highlight |less
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
@@ -42,6 +42,6 @@
 [init]
 	defaultBranch = master
 [gpg]
-	program = /usr/local/bin//gpg
+	program = /opt/homebrew/bin/gpg
 [commit]
 	gpgsign = true
