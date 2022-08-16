@@ -4,6 +4,7 @@
     "python.analysis.autoImportCompletions": false,
     "pyright.completion.snippetSupport": false,
     "pyright.organizeimports.provider": "isort",
+    "pyright.disableProgressNotifications": true,
     "python.analysis.typeCheckingMode": "off",
     "prettier.disableLanguages": [],
     "vetur.completion.autoImport": false,
