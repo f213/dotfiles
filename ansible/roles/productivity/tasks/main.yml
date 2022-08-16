@@ -2,14 +2,12 @@
   - name: Ensure my productivity tools are installed
     homebrew_cask:
       name:
-        - 1password
         - alfred
         - app-cleaner
         - bartender
         - backblaze
         - cleanshot
         - google-chrome
-        - ilya-birman-typography-layout
         - karabiner-elements
         - monolingual
         - omnidisksweeper
@@ -29,7 +27,6 @@
     homebrew_cask:
       name:
         - audio-hijack
-        - elgato-stream-deck
         - fission
         - focusrite-control
         - loopback
@@ -52,9 +49,6 @@
       domain: "{{ item.domain }}"
       value: "{{ item.value }}"
     loop:
-      - domain: com.apple.systempreferences
-        key: AttentionPrefBundleIDs
-        value: 0
       - domain: com.apple.dock
         key: no-bouncing
         value: TRUE

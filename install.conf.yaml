@@ -7,6 +7,7 @@
 
 - create:
     - ~/.config
+    - ~/.config/fish
 
 - link:
     ~/.config/fish/config.fish: fish/config.fish
