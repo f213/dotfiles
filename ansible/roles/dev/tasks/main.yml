@@ -1,7 +1,7 @@
 ---
-  - name: Ensure iterm2 is installed
+  - name: Ensure kitty is installed
     homebrew_cask:
-      name: iterm2
+      name: kitty
 
   - name: Add required homebrew repos
     homebrew_tap:

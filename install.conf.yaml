@@ -16,6 +16,7 @@
     ~/.config/karabiner: karabiner
     ~/.config/gh: gh
     ~/.config/nvim: nvim
+    ~/.config/kitty: kitty
     ~/.screenrc: .screenrc
     ~/.gitconfig: .gitconfig
     ~/.isort.cfg: .isort.cfg
