@@ -1,1 +1,1 @@
-set -gx ANSIBLE_SSH_EXECUTABLE /usr/local/bin/ssh
+set -gx ANSIBLE_SSH_EXECUTABLE /opt/homebrew/bin/ssh
