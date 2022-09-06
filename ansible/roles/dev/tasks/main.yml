@@ -11,6 +11,7 @@
     homebrew:
       name:
         - ansible-lint
+        - asimov
         - bat
         - bfg
         - exa
