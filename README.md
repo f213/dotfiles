@@ -9,7 +9,7 @@ git clone https://github.com/f213/dotfiles .dotfiles
 cd .dotfiles
 ./install
 
-vim -c "PlugInstall"
+nvim -c "PlugInstall"
 sudo bash -c 'echo /usr/local/bin/fish >> /etc/shells'
 chsh -s /usr/local/bin/fish
 ```
@@ -24,15 +24,13 @@ The shell is [Fish](https://fishshell.com/). Plugin management is powered by [fi
 
 The clear and minimal fish prompt is called [nai](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#nai):
 
-To use this colors you have to switch iTerm2 color to Dark Solarized (Prefereces -> Profiles -> Colors).
-
-## Vim
+### Neovim
 
 My vim configuration is pretty basic. If you want to explore it, the main repo is located [here](https://github.com/f213/vimrc).
 
-After installation do not forget to run `vim -c "PlugInstall"`.
+After installation do not forget to run `nvim -c "PlugInstall"`.
 
-## Karabiner
+### Karabiner
 
 This repository ships my configuration for the [Karabiner Elements](https://github.com/tekezo/Karabiner-Elements), which i am using to replace the F-keys, which were removed in favour of the shity touchbar on the new macbooks. My modifications:
 
