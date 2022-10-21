@@ -9,7 +9,6 @@
     st  = status
     br  = branch
     c   = checkout
-	ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
 [color "branch"]
     current = yellow reverse
     local = yellow
