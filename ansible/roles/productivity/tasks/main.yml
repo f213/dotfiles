@@ -5,7 +5,6 @@
         - alfred
         - app-cleaner
         - bartender
-        - backblaze
         - cleanshot
         - google-chrome
         - karabiner-elements
@@ -39,8 +38,6 @@
       name:
         - ledger-live
         - soulver
-        - trader-workstation
-
 
   - name: Reduce macos noise
     osx_defaults:

@@ -39,6 +39,7 @@
         - ripgrep
         - sloccount
         - siege
+        - sublime-text
         - telnet
         - yamllint
 
