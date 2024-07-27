@@ -8,7 +8,7 @@
     "python.formatting.provider": "ruff",
     "pyright.inlayHints.variableTypes": false,
     "pyright.inlayHints.functionReturnTypes": false,
-    "prettier.disableLanguages": [],
+    "pyright.inlayHints.parameterTypes": false,
     "vetur.completion.autoImport": false,
     "vetur.format.enable": false,
     "signature.enable": false,
