@@ -1,4 +1,4 @@
 function docker --description 'alias docker=lima nerdctl'
-	lima nerdctl $argv;
+	lima docker $argv;
 end
 
