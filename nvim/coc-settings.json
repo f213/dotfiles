@@ -1,5 +1,5 @@
 {
-    "python.linting.flake8Enabled": true,
+    "python.linting.ruffEnabled": true,
     "python.linting.mypyEnabled": true,
     "python.analysis.autoImportCompletions": false,
     "pyright.completion.snippetSupport": false,
@@ -12,6 +12,7 @@
     "vetur.completion.autoImport": false,
     "vetur.format.enable": false,
     "signature.enable": false,
+    "diagnostic.showUnused": false,
     "diagnostic.hintSign": "",
     "diagnostic.messageTarget": "echo"
 }
