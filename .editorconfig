@@ -17,5 +17,8 @@ indent_size = 2
 [*.ts]
 indent_size = 2
 
+[*.lua]
+indent_size = 2
+
 [{Makefile,**.mk}]
 indent_style = tab
