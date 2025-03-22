@@ -1,4 +1,5 @@
 {
+  "FTerm.nvim": { "branch": "master", "commit": "d1320892cc2ebab472935242d9d992a2c9570180" },
   "auto-save.nvim": { "branch": "main", "commit": "29f793a3a7f98129387590269ffe3ad61ab5e509" },
   "coc.nvim": { "branch": "release", "commit": "da20bea23b6226e5859a06137b841c6853599f22" },
   "fzf-lua": { "branch": "main", "commit": "df5f1347fa8fe975b1018d73cdb91913f65f25c8" },
