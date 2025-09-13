@@ -17,11 +17,14 @@ function fish_mode_prompt; end
 
 set -x LC_ALL en_US.UTF-8
 set -x VIRTUAL_ENV_DISABLE_PROMPT off
-set PATH ~/bin /usr/local/bin/ /opt/homebrew/bin/ $PATH
+set PATH ~/.local/bin ~/bin /usr/local/bin/ /opt/homebrew/bin/ $PATH
 
 
 # set private environment variables stored outside source control
 test -r ~/.fish.env; and export (cat ~/.fish.env|xargs -L 1)
+
+# run private fish configuration
+test -r ~/.fish.local.fish; and source ~/.fish.local.fish
 
 
 # load my fish functions
@@ -29,7 +32,6 @@ for f in (find ~/.config/fish/f213/ -type f  -name '*.fish')
     source $f
 end
 
-set -g fish_user_paths "/usr/local/opt/node@8/bin" $fish_user_paths
 
 # pnpm
 set -gx PNPM_HOME "/Users/f213/Library/pnpm"
