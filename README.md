@@ -9,7 +9,6 @@ git clone https://github.com/f213/dotfiles .dotfiles
 cd .dotfiles
 ./install
 
-nvim -c "PlugInstall"
 sudo bash -c 'echo /usr/local/bin/fish >> /etc/shells'
 chsh -s /usr/local/bin/fish
 ```
@@ -20,15 +19,13 @@ Homebrew and fish shell are bootstrapped automatically in case you have them not
 ## Contents
 
 ### Fish
-The shell is [Fish](https://fishshell.com/). Plugin management is powered by [fisherman](http://fisherman.github.io).
+The shell is [Fish](https://fishshell.com/). Plugin management is powered by [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish).
 
 The clear and minimal fish prompt is called [nai](https://github.com/oh-my-fish/oh-my-fish/blob/master/docs/Themes.md#nai):
 
 ### Neovim
 
-My vim configuration is pretty basic. If you want to explore it, the main repo is located [here](https://github.com/f213/vimrc).
-
-After installation do not forget to run `nvim -c "PlugInstall"`.
+My vim configuration is pretty basic: a few plugins are managed by [lazy.nvim](https://github.com/folke/lazy.nvim), python and yaml LSPs are installed externaly with pipx and npx.
 
 ### Karabiner
 
