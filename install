@@ -14,5 +14,4 @@ git submodule update --init --recursive "${DOTBOT_DIR}"
 
 "${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${CONFIG}" "${@}"
 
-echo Please do not forget to run vim -c "PlugInstall"
 echo To switch your shell to fish, take a look at https://github.com/ellerbrock/fish-shell-setup-osx#fish-shel1

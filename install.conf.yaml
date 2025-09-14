@@ -19,9 +19,7 @@
     ~/.config/kitty: kitty
     ~/.screenrc: .screenrc
     ~/.gitconfig: .gitconfig
-    ~/.isort.cfg: .isort.cfg
     ~/.editorconfig: .editorconfig
-    ~/.config/flake8: flake8
     ~/.cookiecutterrc: cookiecutterrc
 
 - shell:
@@ -34,4 +32,3 @@
     stdin: true
     stdout: true
     description: Pouring software
-
