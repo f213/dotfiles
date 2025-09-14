@@ -14,13 +14,13 @@
     ~/.config/fish/f213: fish/f213
     ~/.config/omf: fish/omf
     ~/.config/karabiner: karabiner
-    ~/.config/gh: gh
+    ~/.config/gh: git/gh
     ~/.config/nvim: nvim
     ~/.config/kitty: kitty
-    ~/.screenrc: .screenrc
-    ~/.gitconfig: .gitconfig
-    ~/.editorconfig: .editorconfig
-    ~/.cookiecutterrc: cookiecutterrc
+    ~/.screenrc: dot.screenrc
+    ~/.gitconfig: git/gitconfig
+    ~/.editorconfig: dot.editorconfig
+    ~/.cookiecutterrc: dot.cookiecutterrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

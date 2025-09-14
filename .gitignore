@@ -2,5 +2,5 @@ fish/fishd*
 fisherman/await
 fish/fishfile
 karabiner/automatic_backups
-gh/hosts.yml
+git/gh/hosts.yml
 .DS_Store
