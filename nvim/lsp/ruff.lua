@@ -4,7 +4,7 @@ return {
   init_options = {
     settings = {
       lint = {
-        ignore = {"I001"},
+        ignore = {"I001", "W293"},
       },
     },
   },

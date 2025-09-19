@@ -9,7 +9,11 @@ vim.opt.cursorline = true
 vim.opt.ruler = true
 vim.opt.number = true
 vim.opt.hlsearch = false
-vim.opt.completeopt = { "menu", "menuone", "noselect", "preview" }
+vim.diagnostic.config({
+  underline = false,
+})
+vim.opt.autocomplete = true
+vim.opt.completeopt = { "menu", "menuone", "preview", "preinsert" }
 
 
 vim.cmd('filetype plugin indent on')
