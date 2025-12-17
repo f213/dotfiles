@@ -55,5 +55,5 @@
   - name: Ensure python and node version managers are installed
     homebrew:
       name:
-        - pyenv
         - n
+        - uv
