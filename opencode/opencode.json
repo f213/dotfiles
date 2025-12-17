@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "autoupdate": false,
+  "share": "disabled",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "llama",
+      "options": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf": {
+          "name": "qwen3-coder"
+        }
+      }
+    }
+  }
+}

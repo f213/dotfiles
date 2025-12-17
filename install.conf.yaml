@@ -8,6 +8,7 @@
 - create:
     - ~/.config
     - ~/.config/fish
+    - ~/.config/opencode
 
 - link:
     ~/.config/fish/config.fish: fish/config.fish
@@ -17,6 +18,7 @@
     ~/.config/gh: git/gh
     ~/.config/nvim: nvim
     ~/.config/kitty: kitty
+    ~/.config/opencode/opencode.json: opencode/opencode.json
     ~/.screenrc: dot.screenrc
     ~/.gitconfig: git/gitconfig
     ~/.editorconfig: dot.editorconfig
