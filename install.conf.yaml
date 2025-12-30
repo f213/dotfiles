@@ -23,6 +23,7 @@
     ~/.gitconfig: git/gitconfig
     ~/.editorconfig: dot.editorconfig
     ~/.cookiecutterrc: dot.cookiecutterrc
+    ~/.hushlogin: dot.hushlogin
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
