@@ -15,5 +15,22 @@
         }
       }
     }
+  },
+  "lsp": {
+    "pyright": {
+      "disabled": true
+    },
+    "ruff": {
+      "extensions": [".py"],
+      "command": ["pipx", "run", "-q", "ruff", "server"]
+    },
+  },
+  "agent": {
+    "plan": {
+      "model": "anthropic/claude-opus-4-5",
+      "tools": {
+        "bash": true
+      }
+    }
   }
 }
