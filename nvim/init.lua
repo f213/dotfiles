@@ -1,4 +1,5 @@
 require("config.lazy")
+require("config.filetypes")
 require("config.disable_lang_providers")
 
 vim.opt.signcolumn = "number"

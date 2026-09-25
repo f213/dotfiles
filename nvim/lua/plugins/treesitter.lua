@@ -1,14 +1,33 @@
-return {
-    "nvim-treesitter/nvim-treesitter",
-    build = ":TSUpdate",
-    main = "nvim-treesitter.config",
-    branch="main",
-    version=false,
-    opts = {
-      ensure_installed = { "python", "javascript", "lua", "vim", "htmldjango", "html", "jinja", "json", "xml", "yaml",  },
+local languages = {
+  "caddy",
+  "html",
+  "htmldjango",
+  "javascript",
+  "jinja",
+  "json",
+  "lua",
+  "markdown",
+  "markdown_inline",
+  "python",
+  "vim",
+  "xml",
+  "yaml",
+}
 
-      highlight = {
-        enable = true,
-      },
-    }
+return {
+  "nvim-treesitter/nvim-treesitter",
+  branch = "main",
+  version = false,
+  lazy = false,
+  build = ":TSUpdate",
+  config = function()
+    require("nvim-treesitter").install(languages)
+
+    vim.api.nvim_create_autocmd("FileType", {
+      pattern = languages,
+      callback = function(ev)
+        pcall(vim.treesitter.start, ev.buf)
+      end,
+    })
+  end,
 }
