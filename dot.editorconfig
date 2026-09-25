@@ -3,7 +3,7 @@ root = true
 [*]
 end_of_line = LF
 charset = utf-8
-indent_size = 4
+indent_size = 2
 indent_style = space
 max_line_length = 140
 
@@ -11,14 +11,8 @@ max_line_length = 140
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.yml,*.yaml]
-indent_size = 2
-
-[*.ts]
-indent_size = 2
-
-[*.lua]
-indent_size = 2
+[*.py]
+indent_size = 4
 
 [{Makefile,**.mk}]
 indent_style = tab

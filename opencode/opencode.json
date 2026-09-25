@@ -2,20 +2,8 @@
   "$schema": "https://opencode.ai/config.json",
   "autoupdate": false,
   "share": "disabled",
-  "provider": {
-    "ollama": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "llama",
-      "options": {
-        "baseURL": "http://localhost:11434/v1"
-      },
-      "models": {
-        "Qwen3-Coder-30B-A3B-Instruct-Q4_K_M.gguf": {
-          "name": "qwen3-coder"
-        }
-      }
-    }
-  },
+  "default_agent": "plan",
+  "theme": "tokyonight",
   "lsp": {
     "pyright": {
       "disabled": true
@@ -25,12 +13,40 @@
       "command": ["pipx", "run", "-q", "ruff", "server"]
     },
   },
-  "agent": {
-    "plan": {
-      "model": "anthropic/claude-opus-4-5",
-      "tools": {
-        "bash": true
+  "plugin": [
+    "/usr/local/lib/node_modules/@rynfar/meridian/plugin/meridian.ts"
+  ],
+  "provider": {
+    "local": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Local (LM Studio)",
+      "options": {
+        "baseURL": "http://127.0.0.1:1234/v1"
+      },
+      "models": {
+        "google/gemma-4-26b-a4b": {
+          "name": "Gemma 4 26B",
+          "tool_call": true
+        }
       }
     }
+  },
+  "agent": {
+    "plan": {
+      "model": "github-copilot/claude-opus-4.8",
+      "tools": {
+        "bash": true
+      },
+      "permission": {
+        "external_directory": {
+          "/Users/f213/prj/**": "allow",
+          "~/prj/**": "allow"
+        }
+      }
+    },
+    "build": {
+      "model": "github-copilot/claude-sonnet-4.6",
+    },
+
   }
 }

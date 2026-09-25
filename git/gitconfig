@@ -44,3 +44,11 @@
 	program = /opt/homebrew/bin/gpg
 [commit]
 	gpgsign = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[url "https://github.com/"]
+	insteadOf = git@github.com:
